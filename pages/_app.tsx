@@ -17,9 +17,10 @@ function createData(name: string, FundingRate: number){
   return {name, FundingRate};
 }
 
-function loadFundingRate(obj){
+/* function loadFundingRate(obj){
 
 }
+*/
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />

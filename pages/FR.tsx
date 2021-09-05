@@ -57,7 +57,7 @@ const FR = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {data.map((data) => (
+          {data.map((data:any) => (
             <TableRow key={data.symbol}>
               <TableCell component="th" scope="row">
                 {data.symbol}
